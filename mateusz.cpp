@@ -11,7 +11,7 @@ cin >> ilrz;
 //Pętla losowania
 for (int i=0;i<=ilrz;i++){
 rzut=rand()%6+1;
-cout<<i+=1<<" losowanie: "<<rzut<<endl;
+cout<<" losowanie: "<<rzut<<endl;
 //Suma
 suma=suma+rzut;
 }
