@@ -4,4 +4,5 @@ void data()
 	time_t czas;
 	struct tm * ptr;
 	time( & czas );
+	ptr = localtime( & czas );
 }
