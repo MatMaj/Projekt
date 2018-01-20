@@ -1,2 +1,3 @@
-char graigord(char znak){
+void graigord(){
+char znak;
 }
