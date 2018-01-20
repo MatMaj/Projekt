@@ -1,5 +1,5 @@
 void liczlos(){     
-setlocale(LC_ALL, \"\");
+        setlocale(LC_ALL, \"\");
     int tablica[10];
     int dwa = 0;
     int trzy = 0;
@@ -27,5 +27,9 @@ setlocale(LC_ALL, \"\");
             piec++;
             }
     }
-    
+   
+    cout << endl;
+    cout << \"Ilość liczb podzielnych przez dwa: \" << dwa << endl;
+    cout << \"Ilość liczb podzielnych przez trzy: \" << trzy << endl;
+    cout << \"Ilość liczb podzielnych przez piec: \" << piec << endl;    
 }
