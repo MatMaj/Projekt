@@ -1,10 +1,12 @@
 void liczlos(){     
- setlocale(LC_ALL, \"\");
+setlocale(LC_ALL, \"\");
     int tablica[10];
-    int dwa[10];
-    int trzy[10];
-    int piec[10];
-    int j = 0;
+    int dwa = 0;
+    int trzy = 0;
+    int piec = 0;
+
+    cout << \"Wylosowane liczby: \" << endl;
+
     for (int i = 0; i < 10; i++)
     {
         tablica[i] = rand();
@@ -14,17 +16,16 @@ void liczlos(){
         {
             if (tablica[i] % 3 == 0)
             {
-            trzy[j] = trzy[j] + 1;
-            j++;
+                trzy++;
             }
             else {
-            dwa[j]= dwa[j] + 1;
-            j++;
-                }
+            dwa++;
+                 }
         }
             else if (tablica[i] % 5 == 0)
             {
-            piec[j] = dwa[j] + 1;
-            j++;
+            piec++;
             }
+    }
+    
 }
