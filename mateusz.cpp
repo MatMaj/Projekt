@@ -7,11 +7,14 @@ int ilrz=0;
 int rzut=0;
 //Podaj liczbę rzutów kostką
 cout << "Podaj liczę rzutów kostką: ";
-cin << ilrz;
-//Pętla losowania 
+cin >> ilrz;
+//Pętla losowania
 for (int i=0;i<=ilrz;i++){
 rzut=rand()%6+1;
-cout<<i<<" losowanie: "<<rzut; 
+cout<<i<<" losowanie: "<<rzut;
+//Suma
+suma=suma+rzut;
 }
+cout<<"Suma: "<< ilrz<<" rzutów wynosi: "<<suma<<endl;
 }
 
