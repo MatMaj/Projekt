@@ -1,11 +1,10 @@
-void liczlos(){     
-        setlocale(LC_ALL, \"\");
+void liczlos(){
     int tablica[10];
     int dwa = 0;
     int trzy = 0;
     int piec = 0;
 
-    cout << \"Wylosowane liczby: \" << endl;
+    cout << "Wylosowane liczby:" << endl;
 
     for (int i = 0; i < 10; i++)
     {
@@ -27,9 +26,8 @@ void liczlos(){
             piec++;
             }
     }
-   
     cout << endl;
-    cout << \"Ilość liczb podzielnych przez dwa: \" << dwa << endl;
-    cout << \"Ilość liczb podzielnych przez trzy: \" << trzy << endl;
-    cout << \"Ilość liczb podzielnych przez piec: \" << piec << endl;    
+    cout << "Ilość liczb podzielnych przez dwa: " << dwa << endl;
+    cout << "Ilość liczb podzielnych przez trzy: " << trzy << endl;
+    cout << "Ilość liczb podzielnych przez piec: " << piec << endl;
 }
