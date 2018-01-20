@@ -3,6 +3,9 @@
 #include <cstdlib.h>
 #include <time.h>
 #include "mateusz.cpp"
+#include "krystian.cpp"
+#include "plik.cpp"
+#include "data.cpp"
 using namespace std;
 void mateuszf();
 void graigord();
