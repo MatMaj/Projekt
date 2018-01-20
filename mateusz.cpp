@@ -11,10 +11,11 @@ cin >> ilrz;
 //Pętla losowania
 for (int i=0;i<=ilrz;i++){
 rzut=rand()%6+1;
-cout<<i<<" losowanie: "<<rzut;
+cout<<i+=1<<" losowanie: "<<rzut<<endl;
 //Suma
 suma=suma+rzut;
 }
+//Wypisanie sumy oczek
 cout<<"Suma: "<< ilrz<<" rzutów wynosi: "<<suma<<endl;
 }
 
