@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <iostream>
-#include <cstdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include "mateusz.cpp"
 #include "krystian.cpp"
