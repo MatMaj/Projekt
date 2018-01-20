@@ -5,4 +5,5 @@ void data()
 	struct tm * ptr;
 	time( & czas );
 	ptr = localtime( & czas );
+	char * data = asctime( ptr );
 }
