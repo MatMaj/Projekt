@@ -1,0 +1,2 @@
+char graigord(char znak){
+}
