@@ -7,5 +7,5 @@ void data()
 	ptr = localtime( & czas );
 	char * data = asctime( ptr );
 	cout << "Data i godzina: " << data << endl;
-	cout <<"Wszystko gotowe!";
+	cout <<"Wszystko gotowe!!";
 }
